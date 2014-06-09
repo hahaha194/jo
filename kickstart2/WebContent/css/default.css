@@ -1,0 +1,13 @@
+@CHARSET "EUC-KR";
+
+article#front{
+	margin: 150px 0 5px 100px;
+}
+
+#solution{
+	
+	border: solid 1px #FFFFFF;
+	border-radius: 10px;
+	width: 910px;
+	min-height: 150px;
+}

@@ -223,7 +223,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: NanumGothic, �굹�닎怨좊뵓, "Malgun Gothic", "留묒� 怨좊뵓", sans-serif;
+  font-family: NanumGothic, 占쎄돌占쎈땸�⑥쥓逾�, "Malgun Gothic", "筌띾쵐占� �⑥쥓逾�", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -231,7 +231,7 @@ body {
 }
 
 a {
-  color: #1D365D;
+  color: #3075ba;
   text-decoration: none;
 }
 
@@ -633,7 +633,7 @@ a:focus {
 
 .container-fluid {
   padding-right: 20px;
-  padding-left: 40px; 
+  padding-left: 20px; 
   *zoom: 1;
 }
 
@@ -1065,7 +1065,7 @@ input,
 button,
 select,
 textarea {
-  font-family: NanumGothic, �굹�닎怨좊뵓, "Malgun Gothic", "留묒� 怨좊뵓", sans-serif;
+  font-family: NanumGothic, 占쎄돌占쎈땸�⑥쥓逾�, "Malgun Gothic", "筌띾쵐占� �⑥쥓逾�", sans-serif;
 }
 
 label {
@@ -3998,7 +3998,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #1D365D;
+  background-color: #3075ba;
 }
 
 .nav-list [class^="icon-"],
@@ -4510,7 +4510,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: NanumGothic, �굹�닎怨좊뵓, "Malgun Gothic", "留묒� 怨좊뵓", sans-serif;
+  font-family: NanumGothic, 占쎄돌占쎈땸�⑥쥓逾�, "Malgun Gothic", "筌띾쵐占� �⑥쥓逾�", sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -6129,6 +6129,9 @@ a.badge:focus {
   color: inherit;
 }
 
+.hero-unit right {
+	float : right;
+}
 .hero-unit li {
   line-height: 30px;
 }
