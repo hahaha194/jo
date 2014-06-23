@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>U&I HRMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="../css/kickstart.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/default.css"/>
+<link href="../css/bootstrap-ko.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+<script src="../script/jquery.js"></script>
+<script src="../script/bootstrap.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+<script src="../script/bootstrap-dropdown.js"></script>
+<script>
+$('.dropdown-toggle').dropdown();
+</script>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+			<ul>				
+				<li class="active"><a href="../gntae/sub1.html">근태관리</a></li>				
+				<li><a href="../edu/edu1.html">교육관리</a></li>
+				<li><a href="../insa/insa1.html">인사평가</a></li>			
+				<li><a href="../bokri/bokri1.html">복리후생</a></li>			
+				<li><a href="../semu/semu1.html">정산세무</a></li>			
+				<li><a href="../work/work1.html">업무관리</a></li>			
+				<li><a href="../info/info1.html">기초정보</a></li>			
+				<li><a href="../gochung/gochung1.html">고충제안접수</a></li>	
+			</ul>	
+	</nav>
+	
+<div class="callout callout-top clearfix">
+	<div class="grid">
+		<h2>현대 유엔아이 인사 정보 시스템</h2>
+		<h4>신 인사 정보 시스템에 오신것을 환영합니다.</h4>
+	</div>
+</div>
+
+</header>
+	<div class="container-fluid" >
+	<div class="row-fluid"> 
+ 	<div class="span3">
+	<div class="well sidebar-nav">
+			<ul class="nav nav-list">
+				<li class="nav-header">일일근태관리</li>
+				<li><a href="sub1.html">연간근태현황</a></li>
+				<li class="active"><a href="sub2.html">근태신청</a></li>
+				<li><a href="sub3.html">근태변경</a></li>
+				<li><a href="sub4.html">근태결재현황</a></li>
+				<li><a href="sub5.html">근태결재처리</a></li>
+				<li><a href="sub6.html">부서근태현황</a></li>
+				<li class="nav-header">익월근태</li>
+				<li><a href="sub7.html">익월근태등록</a></li>
+				<li class="nav-header">휴일근무</li>
+				<li><a href="sub8.html">휴일근무사전신청</a></li>
+				<li><a href="sub9.html">휴일근무결과보고</a></li>
+				<li><a href="sub10.html">휴일근무결재처리</a></li>
+				<li><a href="sub11.html">개인별휴일근무현황</a></li>
+				<li class="nav-header">출장관리</li>
+				<li><a href="sub12.html">출장품의</a></li>
+				<li><a href="sub13.html">출장결과보고</a></li>
+				<li><a href="sub14.html">출장결재</a></li>
+				<li class="nav-header">프로젝트관리</li>
+				<li><a href="sub15.html">프로젝트발령요청서</a></li>
+				<li><a href="sub16.html">프로젝트발령품의결재</a></li>
+				<li class="nav-header">연차관리</li>
+				<li><a href="sub17.html">연차휴가사용촉진제</a></li>
+			</ul>
+		</div>	
+	</div>			
+
+	 <div class="span9">
+          <div class="hero-unit">
+            <h1>근태신청</h1>
+           	<div class = "right"><a href="test.html">Home</a> > <a>일일근태관리</a> > <a>근태신청</a><br>
+	       	   	<button type="button" class="btn btn-primary" data-toggle="button">신 규</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">상 신</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">삭 제</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">닫 기</button>
+      	    </div>
+          </div>
+          <div class="row-fluid">
+            <div class="span3"> 
+            	<div class="span5"> 	
+            	</div>
+            </div><!--/span-->
+         
+            </div>
+        	<div class="row-fluid">
+            <div class="span12">
+            <table class="sortable" cellspacing="0" cellpadding="0">
+			<thead>
+				<tr>
+					<th>연차발생일수</th>
+					<th><input type="text" class="form-control" value="0일"></th>					
+					<th>연차사용일수</th>
+					<th><input type="text" class="form-control" value="1일"></th>
+					<th>미사용일수</th>
+					<th><input type="text" class="form-control" value="0일"></th>
+				</tr>
+				<tr>
+					<th>사번</th>
+					<th><input type="text" class="form-control" value="200572">
+					<input type="text" class="form-control" value="용아름"><i class="icon-search"></i>
+					</th>
+					<th>소속</th>
+					<th><input type="text" class="form-control" value="엘리베이터팀"></th>
+					<th>직위</th>
+					<th><input type="text" class="form-control" value="4급사원"></th>
+				</tr>
+				<tr>
+					<th>근태</th>
+					<th><select id="select1">
+	             		<option value="0">외부근무</option>
+	             		<option value="1">지각</option>
+	             		<option value="2">출장</option>
+	             		<option value="3">교육</option>
+	             		<option value="4">훈련</option>
+	             		<option value="5">연차휴가</option>
+	             		<option value="6">오전연반차</option>
+	             		<option value="7">오후연반차</option>
+	             		<option value="8">미확인</option>
+	             		<option value="9">특별휴가</option>
+	             		<option value="10">여직원휴가</option>
+	             		<option value="11">대체반차</option>
+	             		<option value="12">정상</option>
+                  		</select>
+                  	</th>
+					<th>근태일</th>
+					<th><input type="text" class="form-control"><i class="icon-search"></i>
+					<th>사유</th>
+					<th> <input type="text" class="form-control"></th>
+				</tr>
+			</thead>
+			</tbody>
+			</table>
+            <div class="hero-unit"> 
+			<div class="right">
+				<button type="button" class="btn btn-primary" data-toggle="button">결제선지정</button>
+			</div>
+			<abbr title="HyperText Markup Language" class="initialism">작업 순서 : 신규 버튼 -> 근태종류 / 일자 / 사유 입력 -> 결제선 지정 -> 상신</abbr>
+			<br>
+			</div>
+			  
+            <table class="sortable" cellspacing="0" cellpadding="0">
+			<thead>
+				<tr>
+					<th>NO</th>
+					<th>성명</th>
+					<th>부서</th>
+					<th>직위</th>
+					<th>근태일</th>
+					<th>근태항목</th>
+					<th>사유</th>
+					<th>결재여부</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>용아름</td>
+					<td>엘리베이터팀</td>
+					<td>4급사원</td>
+					<td>2014-04-05</td>
+					<td>교육</td>
+					<td>SAP 교육</td>
+                  	<td>X</td>
+				</tr>
+
+			</tbody>
+			</table>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+<div id="footer">
+&copy; Copyright 2014 BY HYUNDAI UBIQUTIOUS & INFORMATION TECHNOLOGY CO.,LTD. ALL RIGHT RESERVED.
+</div>
+
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>U&I HRMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="../css/kickstart.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/default.css"/>
+<link href="../css/bootstrap-ko.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+<script src="../script/jquery.js"></script>
+<script src="../script/bootstrap.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+<script src="../script/bootstrap-dropdown.js"></script>
+<script>
+$('.dropdown-toggle').dropdown();
+</script>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+			<ul>			
+				<li class="active"><a href="../gntae/sub1.html">근태관리</a></li>				
+				<li><a href="../edu/edu1.html">교육관리</a></li>
+				<li><a href="../insa/insa1.html">인사평가</a></li>			
+				<li><a href="../bokri/bokri1.html">복리후생</a></li>			
+				<li><a href="../semu/semu1.html">정산세무</a></li>			
+				<li><a href="../work/work1.html">업무관리</a></li>			
+				<li><a href="../info/info1.html">기초정보</a></li>			
+				<li><a href="../gochung/gochung1.html">고충제안접수</a></li>	
+			</ul>	
+	</nav>
+<div class="callout callout-top clearfix">
+	<div class="grid">
+		<h2>현대 유엔아이 인사 정보 시스템</h2>
+		<h4>신 인사 정보 시스템에 오신것을 환영합니다.</h4>
+	</div>
+</div>
+</header>
+	<div class="container-fluid" >
+	<div class="row-fluid"> 
+ 	<div class="span3">
+	<div class="well sidebar-nav">
+			<ul class="nav nav-list">
+				<li class="nav-header">일일근태관리</li>
+				<li><a href="sub1.html">연간근태현황</a></li>
+				<li><a href="sub2.html">근태신청</a></li>
+				<li><a href="sub3.html">근태변경</a></li>
+				<li><a href="sub4.html">근태결재현황</a></li>
+				<li><a href="sub5.html">근태결재처리</a></li>
+				<li><a href="sub6.html">부서근태현황</a></li>
+				<li class="nav-header">익월근태</li>
+				<li><a href="sub7.html">익월근태등록</a></li>
+				<li class="nav-header">휴일근무</li>
+				<li><a href="sub8.html">휴일근무사전신청</a></li>
+				<li><a href="sub9.html">휴일근무결과보고</a></li>				
+				<li><a href="sub10.html">휴일근무결재처리</a></li>
+				<li><a href="sub11.html">개인별휴일근무현황</a></li>
+				<li class="nav-header">출장관리</li>
+				<li class="active"><a href="sub12.html">출장품의</a></li>
+				<li><a href="sub13.html">출장결과보고</a></li>
+				<li><a href="sub14.html">출장결재</a></li>
+				<li class="nav-header">프로젝트관리</li>
+				<li><a href="sub15.html">프로젝트발령요청서</a></li>
+				<li><a href="sub16.html">프로젝트발령품의결재</a></li>
+				<li class="nav-header">연차관리</li>
+				<li><a href="sub17.html">연차휴가사용촉진제</a></li>
+			</ul>
+		</div>	
+	</div>			
+	 <div class="span9">
+          <div class="hero-unit">
+            <h1>출장품의서</h1>
+           	<div class = "right"><a href="test.html">Home</a> > <a>근태관리 </a> > <a>출장관리</a> > <a> 출장품의</a><br>
+           		<button type="button" class="btn btn-primary" data-toggle="button">저 장</button>
+	       	   	<button type="button" class="btn btn-primary" data-toggle="button">상 신</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">인 쇄</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">취 소</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">닫 기</button>
+      	    </div>
+      	  </div>
+      	  <div class="input-group"> 
+	      	  품의번호 <input type="text" class="form-control">
+	      	  소속 <input type="text" class="form-control" value="엘리베이터팀">
+	      	  직위 <input type="text" class="form-control" value="4급사원">
+	      	  상신자 <input type="text" class="form-control" value="용아름">
+          </div><br> 
+      	 
+          <div class="row-fluid">
+            <div class="span3"> 
+            	<div class="span5"> 	
+            	</div>
+            </div><!--/span-->
+          </div>          
+        	<div class="row-fluid">
+            <div class="span12">
+	
+           	<div class = "right">
+           		<button type="button" class="btn btn-primary" data-toggle="button">추 가</button>
+	       	   	<button type="button" class="btn btn-primary" data-toggle="button">삭 제</button>
+      	    </div>
+			
+           <h4> 1. 출장자 정보</h4><br>
+           <table class="sortable" cellspacing="0" cellpadding="0">
+			  <thead>
+				<tr>
+					<th>NO</th>
+					<th>소속</th>
+					<th>직위</th>
+					<th>사번</th>
+					<th>성명</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>엘리베이터팀</td>
+                	<td>4급사원</td>
+					<td>200572</td>
+					<td>용아름</td>  
+				</tr>
+			</tbody>
+			</table>
+			<br>
+			
+			<h4> 2. 출장 내용 </h4><br>
+             <table class="sortable" cellspacing="0" cellpadding="0">
+			  <thead>
+				<tr>
+					<th>출장지</th>
+					<th><select id="select1">
+	             		<option value="0">근거리</option>
+	             		<option value="1">장거리</option>
+	             		<option value="2">해외</option>
+	             		<option value="3">회부행사/경조</option>
+	             		</select>
+	             	</th>
+	             	<th>출장도시</th>
+	             	<th> <input type="text" class="form-control"> </th>
+				</tr>
+				<tr>
+					<th>출장구분</th>
+					<th><select id="select1">
+	             		<option value="0">근거리</option>
+	             		<option value="1">장거리</option>
+	             		<option value="2">해외</option>
+	             		</select>
+	             	</th>
+	             	<th>비용귀속</th>
+	             	<th><input type="text" class="form-control">
+	             	    <button type="button" class="btn btn-primary" data-toggle="button">전 표</button>
+	             	</th>
+	            </tr>
+	            <tr>
+	             	<th>출장기간</th>
+	             	<th colspan ="3"> <input type="text" class="form-control"><i class="icon-search"></i>
+	             	 ~ <input type="text" class="form-control"><i class="icon-search"></i>
+	             	( <input type="text" class="form-control"> 박 <input type="text" class="form-control"> 일 )
+	            	</th>
+	            </tr>
+	            <tr>
+	            	<th>출장개요</th>
+	            	<th colspan ="3"><br><br><br><br><br></th>
+	            </tr>
+	            <tr>
+	            	<th>주요활동</th>
+	            	<th colspan ="3"><br><br><br><br><br></th>
+	            </tr>
+	            <tr>
+	            	<th>기대효과</th>
+	            	<th colspan ="3"><br><br><br><br><br></th>
+	            </tr>
+	            <tr>
+	            	<th>출장일정</th>
+	            	<th colspan ="3">
+	            		<table class="sortable" cellspacing="0" cellpadding="0">
+						  <thead>
+							<tr>
+								<th>NO</th>
+								<th>성명</th>
+								<th>날짜</th>
+								<th>내용</th>
+								<th>출장지</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>용아름</td>
+			                	<td>2014/06/07 </td>
+								<td>해외출장</td>
+								<td>Newyork</td>  
+							</tr>
+						</tbody>
+						</table>
+					</th>
+				</tr>
+				<tr>
+					<th>출장경비</th>
+					<th colspan ="3">경비처리 : <label class="checkbox"><input type="checkbox">교육출장</label>
+					<label class="checkbox"><input type="checkbox">식비지원(해외출장)</label><br>
+					교 통 편 : <select id="select1">
+	             		<option value="0">항공</option>
+	             		<option value="1">철도</option>
+	             		<option value="2">선박</option>
+	             		<option value="3">버스</option>
+	             		<option value="4">자가용</option>
+	             		<option value="5">렌터카</option>
+	             		</select>
+		                교통비 총 금액 : <input type="text" class="form-control" value="0">원<br>
+		                예상금액 : <input type="text" class="form-control" value="0">원
+		           <button type="button" class="btn btn-primary" data-toggle="button">상세내역</button><br>
+		         	  비   고 : <input type="text" class="form-control">      
+					</th>
+				</tr>
+				<tr>
+					<th>첨부</th>
+					<th colspan ="3">
+					<input type="text" class="form-control">
+					<button type="button" class="btn btn-primary" data-toggle="button">파일첨부</button><br>
+					<input type="text" class="form-control">
+					<button type="button" class="btn btn-primary" data-toggle="button">파일삭제</button>
+					</th>
+				<tr>
+			</thead>
+			</table>
+			<br><br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+	
+<div id="footer">
+&copy; Copyright 2014 BY HYUNDAI UBIQUTIOUS & INFORMATION TECHNOLOGY CO.,LTD. ALL RIGHT RESERVED.
+</div>
+</body>
+</html>

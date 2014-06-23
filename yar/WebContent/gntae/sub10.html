@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>U&I HRMS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="../css/kickstart.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="../css/default.css"/>
+<link href="../css/bootstrap-ko.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.css" rel="stylesheet">
+<script src="../script/jquery.js"></script>
+<script src="../script/bootstrap.js"></script>
+<script src="../script/bootstrap.min.js"></script>
+<script src="../script/bootstrap-dropdown.js"></script>
+<script>
+$('.dropdown-toggle').dropdown();
+</script>
+</head>
+<body>
+<header>
+	<nav class="navbar">
+			<ul>			
+				<li class="active"><a href="../gntae/sub1.html">근태관리</a></li>				
+				<li><a href="../edu/edu1.html">교육관리</a></li>
+				<li><a href="../insa/insa1.html">인사평가</a></li>			
+				<li><a href="../bokri/bokri1.html">복리후생</a></li>			
+				<li><a href="../semu/semu1.html">정산세무</a></li>			
+				<li><a href="../work/work1.html">업무관리</a></li>			
+				<li><a href="../info/info1.html">기초정보</a></li>			
+				<li><a href="../gochung/gochung1.html">고충제안접수</a></li>
+			</ul>	
+	</nav>
+<div class="callout callout-top clearfix">
+	<div class="grid">
+		<h2>현대 유엔아이 인사 정보 시스템</h2>
+		<h4>신 인사 정보 시스템에 오신것을 환영합니다.</h4>
+	</div>
+</div>
+</header>
+	<div class="container-fluid" >
+	<div class="row-fluid"> 
+ 	<div class="span3">
+	<div class="well sidebar-nav">
+			<ul class="nav nav-list">
+				<li class="nav-header">일일근태관리</li>
+				<li><a href="sub1.html">연간근태현황</a></li>
+				<li><a href="sub2.html">근태신청</a></li>
+				<li><a href="sub3.html">근태변경</a></li>
+				<li><a href="sub4.html">근태결재현황</a></li>
+				<li><a href="sub5.html">근태결재처리</a></li>
+				<li><a href="sub6.html">부서근태현황</a></li>
+				<li class="nav-header">익월근태</li>
+				<li><a href="sub7.html">익월근태등록</a></li>
+				<li class="nav-header">휴일근무</li>
+				<li><a href="sub8.html">휴일근무사전신청</a></li>
+				<li><a href="sub9.html">휴일근무결과보고</a></li>				
+				<li class="active"><a href="sub10.html">휴일근무결재처리</a></li>
+				<li><a href="sub11.html">개인별휴일근무현황</a></li>
+				<li class="nav-header">출장관리</li>
+				<li><a href="sub12.html">출장품의</a></li>
+				<li><a href="sub13.html">출장결과보고</a></li>
+				<li><a href="sub14.html">출장결재</a></li>
+				<li class="nav-header">프로젝트관리</li>
+				<li><a href="sub15.html">프로젝트발령요청서</a></li>
+				<li><a href="sub16.html">프로젝트발령품의결재</a></li>
+				<li class="nav-header">연차관리</li>
+				<li><a href="sub17.html">연차휴가사용촉진제</a></li>
+			</ul>
+		</div>	
+	</div>			
+	 <div class="span9">
+          <div class="hero-unit">
+            <h1>휴일근무결재처리</h1>
+           	<div class = "right"><a href="test.html">Home</a> > <a>근태관리 </a> > <a>휴일근무</a> > <a>휴일근무결재처리</a><br>
+	       	   	<button type="button" class="btn btn-primary" data-toggle="button">조 회</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">취 소</button>
+				<button type="button" class="btn btn-primary" data-toggle="button">닫 기</button>
+      	    </div>
+      	    해당 결재정보를 더블클릭하면 세부내역을 조회할 수 있습니다.
+      	  </div>
+      
+      	  <div class="input-group"> 
+	      	  신청년월 <input type="text" class="form-control"><i class="icon-search"></i>
+	      	   ~ <input type="text" class="form-control"><i class="icon-search"></i>
+	      	  결재종류 <select id="select1">
+	             		<option value="0">모두</option>
+	             		<option value="1">사전승인</option>
+	             		<option value="2">결과보고</option>
+	             		<option value="3">수당정산</option>
+                </select>
+                     결재 상태 <select id="select2">
+	             		<option value="0">결재</option>
+	             		<option value="1">부결</option>
+	             		<option value="2">미결</option>
+                </select><br>
+                  소속 <input type="text" class="form-control"><i class="icon-search"></i>
+                  결재자 <input type="text" class="form-control"> <input type="text" class="form-control"> 
+                  <i class="icon-search"></i>
+          </div><br> 
+      	 
+          <div class="row-fluid">
+            <div class="span3"> 
+            	<div class="span5"> 	
+            	</div>
+            </div><!--/span-->
+          </div>          
+        	<div class="row-fluid">
+            <div class="span12">
+             <table class="sortable" cellspacing="0" cellpadding="0">
+			  <thead>
+				<tr>
+					<th>NO</th>
+					<th>결재구분</th>
+					<th>제목</th>
+					<th>상신일자</th>
+					<th>상신자</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>휴일근무신청</td>
+                	<td>2014/05/24 엘리베이터팀 </td>
+					<td>2014-05-26</td>
+					<td>정연재</td>  
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>휴일결과보고</td>
+                	<td>2014/05/24 엘리베이터팀 </td>
+					<td>2014-05-28</td>
+					<td>정연재</td>  
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>휴일근무신청</td>
+                	<td>2014/05/18 엘리베이터팀 </td>
+					<td>2014-05-16</td>
+					<td>정연재</td>  
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>휴일결과보고</td>
+                	<td>2014/05/18 엘리베이터팀 </td>
+					<td>2014-05-19</td>
+					<td>정연재</td>  
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>휴일근무신청</td>
+                	<td>2014/05/17 엘리베이터팀 </td>
+					<td>2014-05-16</td>
+					<td>정연재</td>  
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>휴일결과보고</td>
+                	<td>2014/05/17 엘리베이터팀 </td>
+					<td>2014-05-19</td>
+					<td>정연재</td>  
+				</tr>
+			</tbody>
+			</table>
+	          
+            </div>
+          </div>
+        </div>
+      </div>
+	
+<div id="footer">
+&copy; Copyright 2014 BY HYUNDAI UBIQUTIOUS & INFORMATION TECHNOLOGY CO.,LTD. ALL RIGHT RESERVED.
+</div>
+</body>
+</html>

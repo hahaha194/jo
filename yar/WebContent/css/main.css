@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+body {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        background-color:#fff;
+      }
+
+      .form-signin {
+        max-width: 300px;
+        padding: 19px 29px 29px;
+        margin: 0 auto 20px;
+        background-color: #fff;
+        
+        
+      }
+      .form-signin .form-signin-heading{
+         margin-bottom: 100px;
+                  
+      }
+      .form-signin .checkbox {
+      	
+        margin-bottom: 20px;
+        padding: 10px 29px 29px;
+        margin-left: 100px;
+        
+      }
+      
+      .form-signin .btn{
+      	margin-top:10px;
+      	text-align: center;
+      	font-size: 20px;
+      	width: 300px;
+      }
+      
+      .form-signin input[type="text"],
+      .form-signin input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        margin-bottom: 15px;
+        padding: 7px 9px;
+        
+      }
+      .
+      
+      
